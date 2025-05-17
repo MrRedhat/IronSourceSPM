@@ -16,13 +16,13 @@ let package = Package(
      targets: [
         .binaryTarget(
             name: "IronSource",
-            url: "https://github.com/ironsource-mobile/iOS-sdk/raw/master/8.1.0/IronSource8.1.0.zip",
-            checksum: "2af1acc57245a9e253f6fa61981cc3b48882c7767b9951e4fb70c4580ad509c9"
+            url: "https://github.com/ironsource-mobile/iOS-sdk/releases/download/IronSource_8.8.0/IronSource8.8.0.zip",
+            checksum: "e278dded76ed9cb23bc0b51ffce134dd5dc75572e84deeeeae053f07fe77d806"
         ),
         .binaryTarget(
             name: "IronSourceAdQualitySDK",
-            url: "https://github.com/ironsource-mobile/iOS-adqualitysdk/releases/download/IronSource_AdQuality_7.14.2/IronSourceAdQualitySDK-ios-v7.14.2.zip",
-            checksum: "05f6f206148fd84c3bded71ef27c22448fedf555555c69cfcefccf9cf8a4fd0b"
+            url: "https://github.com/ironsource-mobile/iOS-adqualitysdk/releases/download/7.24.3/IronSourceAdQualitySDK-ios-v7.24.3.zip",
+            checksum: "dbe452e01f344cbf784ba8c31423dec33f85b579ac194ee86774077ee5b4f574"
         )
     ]
 )
